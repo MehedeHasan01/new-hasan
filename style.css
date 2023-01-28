@@ -1,0 +1,664 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background: #fff;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.192);
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+   margin-top: 19px;
+   margin-left: 111px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 130px;
+
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right:  34px;
+    padding-top: 26px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+.nav ul li :hover{
+    color: #7f97ff;
+}
+.sub-menu-1{
+    display: none;
+}
+.checkbtn {
+    display:none;
+    font-size:35px;
+    color: rgba(0,0,0, 0.9);
+    float: right;
+    line-height: 100px;
+    margin-left: -170px;
+    margin-right: -65px;
+}
+#check {
+    display: none;
+}
+/*section-1 Start*/
+.Section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half1, .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 1;
+}
+.half2 img{
+    max-height: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 60px;
+}
+.half1 p{
+    color: rgba(78, 78, 78, 0.7);
+}
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8393ff;
+    outline: none;
+    color: #fff;
+    border: 1px solid #8393ff;
+    cursor: pointer;
+}
+.half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all ease 0.3;
+    outline: none;
+}
+/*section-1 End*/
+
+/*section-2 Start*/
+.Section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Section2 div{
+    width: 40%;
+    margin: 0 auto;
+}
+.Section2 img{
+    max-width: 90%;
+    height: auto;
+}
+.Section2 .img2{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    color: rgba(0,0,0, 0.7);
+    font-size: 15px;
+}
+.text2 h1{
+    font-weight: bold;
+    font-size: 40px;
+}
+.text2 p{
+    font-size: 16px;
+   color: rgba(0,0,0, 0.6); 
+   width: 80%;
+}
+.text2 input{
+    font-size: 20px;
+    padding: 12px 16px;
+    outline: none;
+    color: white;
+    background-color: #8293ff;
+    border: none;
+    cursor: pointer;
+}
+.text2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all ease 0.3;
+    outline: none;
+}
+/*section-2 End*/
+
+/*section-3 Start*/
+
+.Section3{
+    width: 100%;
+    height: 650px;
+    margin: 0 auto;
+    text-align: center;
+}
+.firsttext h1{
+    font-size: 40px;
+}
+.firsttext p{
+    width: 670px;
+    margin: 0 auto;
+    color: rgba(0,0,0, 0.6);
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.sev1, .sev2{
+    width: 100%;
+    overflow: hidden;
+}
+.sev2{
+    padding-top: 30px;
+}
+.sev1 div, .sev2 div {
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0,0,0, 0.7);
+}
+.service h1{
+    color: rgba(0,0,0, 0.9);
+    padding: 23px;
+}
+.service p{
+    color: rgba(0,0,0, 0.8);
+    padding: 2px;
+}
+.sev1 div:hover{
+    color: #8293ff;
+}
+.sev1 div:hover{
+    background-color: #8394ff6b;
+    color: white;
+    cursor: pointer;
+}
+.sev2 div:hover{
+    background-color: #8394ff;
+    color: rgba(255, 255, 255, 0.185);
+    cursor: pointer;
+}
+.sev2 div:hover i{
+    color: rgb(173, 18, 18);
+}
+.sev2 div:hover h1{
+    color: rgb(255, 255, 255);
+}
+.sev2 div:hover p{
+    color: rgb(255, 255, 255);
+}
+.sev1 div:hover i{
+    color: rgb(231, 110, 110);
+}
+.sev1 div:hover h1{
+    color: rgb(255, 255, 255);
+}
+.sev1 div:hover p{
+    color: rgb(255, 255, 255);
+}
+/*section-3 End*/
+
+
+/*section-4 Start*/
+.section4{
+    width: 100%;
+    height: 233px;
+    background-color: #8293ff;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 76px;
+    left: 170px;
+}
+.section4 h1{
+    font-size: 45px;
+}
+.section4 h1,p{
+    color: white;
+    text-align: center;
+}
+/*section-4 End*/
+/*Portfolio Part Start*/
+
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .tection5ext3{
+    text-align: center;
+    padding: 100px;
+}
+.section5 .tection5ext3 h1{
+     font-size: 40px;
+     color: rgba(0, 0, 0, 0.9);
+     line-height: 2em !important;
+     margin-bottom: 0;
+     margin-top: 15px;
+     font-weight: 600;
+}
+.section5 .tection5ext3 p{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+}
+.section5 .imgg{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.section5 .imgg div{
+    width: 259px;
+    height: 411px;
+    padding-bottom: 80px;
+    text-align: center;
+    padding-right: 72x;
+    padding-left: -19px;
+}
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    padding: 11px;
+    margin-left: 11px;
+    margin-right: -50px;
+}
+.section5 .imgg p{
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 0;
+    margin-left: 63px;
+}
+.section5 figure{
+    background: radial-gradient( red, rgb(14, 17, 235));
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.section5 figure:hover img{
+    opacity: 0.3;
+    transition: all ease .3s;
+    cursor: pointer;
+}
+.section5 .imgg h1:hover{
+    color: red;
+}
+
+
+
+
+/*Portfolio Part End*/
+
+/*Pricing Table Start*/
+
+.section6{
+    width: 100%;
+    height: 870px;
+}
+.section6 .text4{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.section6 .text4 h1{
+    font-size: 46px;
+    padding-top: 67px;
+}
+.section6 .text4 p{
+    color: rgba(0, 0, 0, 0.7);
+}
+.section6 .card{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.section6 .card1{
+    width: 275px;
+    height: 520px;
+    background-color: rgb(249, 249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.3);
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 47px;
+    padding-bottom: 37px;
+}
+.section6 .card1 h2{
+    color: rgba(0, 0, 0, 0.8);
+}
+.section6 .card1 .price{
+    font-size: 30px;
+    padding: 12px 0px;
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: #fff;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+    padding-left: 50px;
+}
+.card1 p{
+    color: rgba(0, 0, 0, 0.6);
+    padding: 17px 0px;
+    font-size:19px;
+}
+.section6 .card1:hover{
+    background-color: #485bd6;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(137, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.5);
+    height: 522px;
+    cursor: pointer;
+}
+.section6 .card1:hover .price{
+    display: none;
+}
+.section6 .card1:hover input{
+    color: rgba(14, 13, 13, 0.9);
+    background:linear-gradient(rgba(233, 240, 233, 0.986), rgba(117, 121, 116, 0.651));
+    border-radius: 30px;
+    border: 1px solid rgba(39, 35, 39, 0.856);
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    margin-top: 45px;
+}
+/*Pricing Table End*/
+
+/*Footer Start*/
+
+footer{
+    background-color:rgba(31, 27, 27, 0.829);
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    color: #fff;
+    margin-top: 200px;
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 102px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 0px;
+    margin-top: 13px;
+}
+.h3{
+    padding-left: 33px;
+}
+footer .foot .foot1 input{
+    padding-top: 11px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    border: none;
+    border: none;
+    font-size: 12px;
+    border-radius: 30px;
+    margin-top: 27px;
+}
+footer .foot .foot1 button{
+    background-color: #8293ff;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+footer .foot .foot1 a i{
+    font-size: 20px;
+    margin-top: 19px;
+    padding-right: 6px;
+    color: #fff;
+}
+.foot .foot1 a i:hover{
+    color: #485bd6;
+}
+@media ( max-width:768px) {
+    header {
+        width: 100%;
+        height: auto;
+    }
+    header .logo{
+        margin-left: 30px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .checkbtn{
+        display: block;
+        cursor: pointer;
+    }
+    header .nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        top: 74px;
+        left: -200%;
+        transition: all 0.1s;
+        
+    }
+    header .nav ul li{
+        clear: both;
+        margin-top: 40px;
+        margin-left: 30px;
+        padding: 4px;
+        color: black;
+    }
+    #check:checked ~ ul{
+        left: 0px;
+    }
+    header .nav ul li a{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width:768px){
+
+    .section1 {
+        width: 100%;
+        display: block;
+        height: 40px;
+        margin-left: 1px;
+    }
+  .half1 {
+      padding:0;
+      margin-left: 54px;
+      margin-top: 164px;
+  }
+  .half1 h3 {
+      font-size: 15px;
+  }
+  .half1 h1 {
+    font-size: 30px;
+  }
+  .half2 img {
+    margin-left: 30px;
+    margin-top: 37px;
+    max-width: 80%;
+    height: auto;
+  }
+
+.section2 {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    top: 150px;
+    position: relative;
+}
+.Section2 img {
+    position: relative;
+    left: -185px;
+    top: 12px;
+
+    max-width: 540%;
+    height: auto;
+}
+}
+@media (max-width:768px) {
+    .section2 div{
+        width: 100%;
+    }
+    
+    .text2{
+        position: relative;
+        left: 15px;
+        text-align: center !important;
+    }
+    .text2 h3{
+        font-size: 12px;
+        color: rgba(0,0,0,0.8);
+      
+    }
+    .text2 h1{
+        font-size: 30px;
+        color: rgba(0,0,0, 0.9);
+    }
+    .text2 p{
+        font-size: 15px;
+        color: rgba(0,0,0, 0.9);
+        margin-left:  50px !important;
+    }
+    .section3{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 400px;
+    }
+       
+    
+    .firsttext > h1{
+        font-size: 30px;
+        color: rgba(0,0,0, 0.9);
+    }
+    .firsttext p {
+    width: 80%;
+    }
+    
+    .ser1 div, .ser2 div  {
+        clear: left;
+        position: relative;
+        width: 100%;  
+        height: auto;     
+    }
+    .section4{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 500px;
+    }
+    .section4 div{
+        clear: left;
+    }
+    .section5{
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: 500px;
+    }
+    
+    .section6{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 500px;
+    }
+    .section6 .text4 h1{
+        font-size: 35px;
+    }
+    .section6 .text4 p{
+        width: 80%;
+        margin: auto;
+    }
+    
+    .section6 .card{
+        display: block;
+        width: 100%;
+        height: 221px;
+        position: relative;
+        left: 90px;
+        top: 0px;
+      
+    }
+    .card1 {
+        width: 275px;
+        margin-top: 40px;
+        height: 221px;
+    }
+    footer{
+        position: relative;
+        top: 9px;
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        top:142em;
+        background-color: rgba(214, 60, 60, 0.712);
+     }
+     footer .foot{
+        display: block;  
+        position: relative; 
+        top: 100px;
+        left: 30px;
+    }
+}
